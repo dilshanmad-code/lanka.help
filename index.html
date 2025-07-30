@@ -28,10 +28,15 @@
       font-size: 18px;
       line-height: 1.7;
       color: #1c1c1e;
-      background: radial-gradient(circle at top right, #e0f7fa, #fdfdfd 60%);
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-      background-size: cover;
+    
+      /* ChatGPT-style subtle radial pattern */
+      background-color: #f4f4f5;
+      background-image:
+        radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.04) 1px, transparent 0),
+        radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.04) 1px, transparent 0);
+      background-size: 20px 20px;
+      background-position: 0 0, 10px 10px;
+    
       padding: 3rem 1.5rem;
       max-width: 720px;
       margin: auto;
